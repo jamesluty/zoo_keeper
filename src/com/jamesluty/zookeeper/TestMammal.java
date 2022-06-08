@@ -11,8 +11,16 @@ public class TestMammal {
 		james.eatBanans();
 		james.eatBanans();
 		james.climb();
-		System.out.println("Energy Level: " + james.getEnergyLevel() + "\n");
-
+		System.out.println("Gorilla Energy Level: " + james.getEnergyLevel() + "\n");
+		
+		Bat giantBat = new Bat();
+		giantBat.attackTown();
+		giantBat.attackTown();
+		giantBat.attackTown();
+		giantBat.eatHumans();
+		giantBat.eatHumans();
+		giantBat.fly();
+		giantBat.fly();
+		System.out.println("Bat Energy Level: " + giantBat.getEnergyLevel() + "\n");
 	}
-
 }
